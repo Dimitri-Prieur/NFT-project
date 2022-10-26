@@ -7,7 +7,7 @@ class QrCodeGenerator:
         #Creating an instance of qrcode
         qr = qrcode.QRCode(
                 version = 1,
-                box_size = 10,
+                box_size = 2,
                 border = 5,
             )
         qr.add_data(url)
