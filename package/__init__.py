@@ -1,0 +1,1 @@
+from package.qr_code_generator import QrCodeGenerator
