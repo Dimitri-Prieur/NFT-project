@@ -1,13 +1,19 @@
 from package.qr_code_generator import QrCodeGenerator
 from PIL import Image, ImageDraw, ImageFont #Import PIL functions
+from datetime import datetime
 
 class TicketGenerator:
 
-    def __init__(self, message: str, url: str, title: str, subtitle: str):
+    def __init__(self, message: str, url: str, title: str, subtitle: str, date: datetime, picture: str):
         self.message = message # Little message
         self.url = url # Qr code image
         self.title = str(title).upper()
         self.subtitle = str(subtitle).upper()
+        self.picture = picture
+
+        test = datetime.strptime(date, '%d/%m/%Y %H:%M:%S')
+        self.day = test.strftime('%b %d %Y')
+        self.hour = test.strftime('%I:%M%p')
 
     def generateTicket(self):
 
@@ -19,7 +25,7 @@ class TicketGenerator:
         background = Image.open('./ressources/template/background.png', 'r').convert('RGB') #Opens Template Image
         
         # At the end, this picture should be load randomly :
-        special_picture = Image.open('./ressources/football/DALL·E 2022-11-08 01.21.01 - A cyberpunk representation of soccer goal.png','r').convert('RGB')
+        special_picture = Image.open(self.picture,'r').convert('RGB')
         special_picture = special_picture.resize((630, 630))
 
         # Add pictures on the background 
@@ -36,11 +42,18 @@ class TicketGenerator:
             draw.text((width - (w/2), heigth - (h/2)), text, font= myFont, stroke_width=fontwidth, fill=fontcolor)
 
         # Display title
-        color = (30, 61, 89)
-        addNewDraw(self.title, 1220, 320, 120, color, 3)
+        blue_color = (30, 61, 89)
+        orange_color = (255, 193, 59)
+        addNewDraw(self.title, 1220, 320, 120, blue_color, 3)
        
         # Display subtitle
-        addNewDraw(self.subtitle, 1220, 500, 90, color, 3)
+        addNewDraw(self.subtitle, 1220, 500, 90, blue_color, 3)
+        
+        # Display day
+        addNewDraw(self.day, 280, 190, 50, orange_color, 1)
+        
+        # Display day
+        addNewDraw(self.hour, 280, 635, 50, orange_color, 1)
 
         # Display no refund
         text = "No refund / No exchange"
