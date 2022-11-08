@@ -18,5 +18,5 @@ amaztemp = package.TicketGenerator(
 img = amaztemp.generateTicket()
 img.show()
 
-# # new_image.save("images/merged_image.jpg","PNG")
+# img.save("ressources/TEST.png","PNG")
 # new_image.show()
