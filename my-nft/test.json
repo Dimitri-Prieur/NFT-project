@@ -1,0 +1,19 @@
+{
+    "attributes": [
+      {
+        "trait_type": "Event",
+        "value": "Football Match"
+      },
+      {
+        "trait_type": "Image",
+        "value": "Football"
+      },
+      {
+        "trait_type": "QR Code",
+        "value": "1"
+      }
+    ],
+    "description": "Ticket Event Football test",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQMrFvwPoAtL9gyRckJXjqGjpWX4Q7ruKrUjAyVTzNWSd",
+    "name": "Ticket Event test"
+  }
