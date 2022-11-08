@@ -1,1 +1,1 @@
-from package.qr_code_generator import QrCodeGenerator
+from package.ticker_generator import TicketGenerator
