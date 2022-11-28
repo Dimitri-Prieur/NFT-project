@@ -67,8 +67,13 @@ You need [python 3.9](https://docs.python.org/3.9/) to run this project.
 
 _Below are the instructions_
 
-########
-
+1. Clone the repository :
+    ```
+    https://github.com/barthh/NFT-project.git
+    cd api-imdb
+    ```
+    
+    
 <!-- USAGE EXAMPLES -->
 ## Usage
 
