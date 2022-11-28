@@ -70,13 +70,19 @@ _Below are the instructions_
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-########
+The ticket package allows us to generate a picture and json with data related to it. 
+
+For the moment, we just save them in a folder but the final goal is to directly take those informations and process them.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Future features
 
-########
+It would be necessary to make the link between the generation of an image and the json with the creation of the NFT.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Ideas
+
+To automate the whole, it will be necessary to create a database that allows to create events, to manage the number of places, the price, to have the possibility to have its own images to add to the ticket.
