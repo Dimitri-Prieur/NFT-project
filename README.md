@@ -80,7 +80,9 @@ For the moment, we just save them in a folder but the final goal is to directly 
 
 ## Future features
 
-It would be necessary to make the link between the generation of an image and the json with the creation of the NFT.
+It would be necessary to make the link between the generation of an image and the json with an automatic creation of the NFT once everything is done.
+
+Making a website and a database, that would allow to sell the tickets to customers and all the data related to the sell.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
