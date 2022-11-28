@@ -1,21 +1,78 @@
+<a id="readme-top"></a>  
+
 # NFT Project
 
-Le ticket ressemble à ca :
+Here is the description of the project ########
+
+<!-- TABLE OF CONTENTS -->
+<details open>
+  <summary>Table of Contents</summary>
+  <ul>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#content">Content</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#future-features">Future features</a></li>
+  </ul>
+</details>
 
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/barthh/NFT-project/blob/master/ressources/template/final.png)
 
-[product-screenshot]: ressources/template/final.png
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+########
+
+### Content
+
+Usefull content table :
+
+| Template name | Description |
+| ------------- | ----------- |
+| [package folder](./package/) | Packages to generate tickets |
+| [My NFT folder](./my-nft/) | ######## |
+| [Generated tickets folder](./package/) | Generated tickets |
+| [Ressources folder](./ressources/) | Ticket template and pictures used |
+| [main.py](./main.py) |  The file used to generate the ticket |
 
 
-Automatiser le process de Mintage sur 100 images <br>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Générer un dossier de 100 images avec 100 json qui representent les images <br>
 
-Mettre a la mano sur pinata les images / json <br>
 
-Et si possible passer par l'API <br>
+<!-- GETTING STARTED -->
+## Getting Started
 
-Renommer les images 1.png, 2.png pour les envoyer en folder sur pinata <br>
+### Prerequisites
 
-schema de l'architecture
+You need [python 3.9](https://docs.python.org/3.9/) to run this project.
+
+### Installation
+
+_Below are the instructions_
+
+########
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+########
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Future features
+
+########
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
