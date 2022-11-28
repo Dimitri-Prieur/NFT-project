@@ -109,6 +109,8 @@ _Below are the instructions_
 
 The ticket package allows us to generate a picture and json with data related to it. 
 
+The NFT folder allows to transform the image as an NFT. For that you need to use Pinata to store the image and the json file related to it. You also need to have a Mumbai wallet such as Metamask to store your newly minted NFT.
+
 For the moment, we just save them in a folder but the final goal is to directly take those informations and process them.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
