@@ -16,11 +16,10 @@ class QrCodeGenerator:
             fill_color = (255, 193, 59),
             back_color=(30, 61, 89)
         )
-        return Response(url = url, img = img)
+        return Response(img = img)
 
 class Response:
-    def __init__(self, url, img):
-        self.url = url
+    def __init__(self, img):
         self.img = img
 
 
