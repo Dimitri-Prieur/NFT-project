@@ -70,7 +70,25 @@ _Below are the instructions_
 1. Clone the repository :
     ```
     https://github.com/barthh/NFT-project.git
-    cd api-imdb
+    cd NFT-project
+    ```
+    
+2. Python libraries :
+    ```
+    Libraries used are : requests, qrcode, json, datetime, PIL
+    
+    For example : 
+    
+    pip install qrcode
+    
+    ```
+3. JavaScript libraries :
+    ```
+    Libraries used are : 
+    
+    For example : 
+    
+    
     ```
     
     
