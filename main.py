@@ -1,5 +1,5 @@
 # main.py
-import ticket
+import package
 import os, random, glob
 
 # Picture data
@@ -8,7 +8,7 @@ _picture_path = random.choice(glob.glob("ressources/football/*.png"))
 _ticket_id = 1
 
 # Create self informations
-informations = ticket.TicketGenerator(
+informations = package.TicketGenerator(
     id = _ticket_id,
     url = _url,
     price = 30.00,

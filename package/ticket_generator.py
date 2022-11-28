@@ -1,4 +1,4 @@
-from ticket.qr_code_generator import QrCodeGenerator
+from .qr_code_generator import QrCodeGenerator
 from PIL import Image, ImageDraw, ImageFont #Import PIL functions
 from datetime import datetime
 import json
