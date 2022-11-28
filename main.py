@@ -28,10 +28,10 @@ json_data = informations.generate_json()
 # img.show()
 
 # Save ticket image
-img.save("generated_ticket/picture/" + str(_ticket_id) + ".png","PNG")
+img.save("generated_tickets/picture/" + str(_ticket_id) + ".png","PNG")
 
 # Save ticket json
-with open("generated_ticket/json/" + str(_ticket_id) + ".json", 'w') as outfile:
+with open("generated_tickets/json/" + str(_ticket_id) + ".json", 'w') as outfile:
     outfile.write(json_data)
     
 print(json_data)
