@@ -16,6 +16,9 @@ informations = package.TicketGenerator(
     title = "Uefa euro 2024",
     subtitle = "Finale",
     date = "23/08/2022 21:00:00",
+    wallet = "0xC841962098B5592A415493992cd7F521347632f7",
+    location = "Stade de France",
+    seat = '38A',
 )
 
 # Generate ticket image

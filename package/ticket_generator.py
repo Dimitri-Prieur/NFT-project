@@ -5,21 +5,22 @@ import json
 
 class TicketGenerator:
 
-    def __init__(self, id: str, url: str, price: float, picture: str, title: str, subtitle: str, date: datetime, seat: str = None, location: str = None):
+    def __init__(self, id: str, url: str, picture: str, title: str, subtitle: str, date: datetime, price: float = None, seat: str = None, location: str = None, wallet : str = None):
         """Initializing ticket
 
         Args:
             id (str): ticket id
             url (str): ticket QR Code url
-            price (float): ticket price
             picture (str): ticket picture
             
             title (str): event title
             subtitle (str): event subtitle
             date (datetime): event date. Format -> dd/mm/yy hh:mm:ss
             
+            price (float, optional): ticket price. Defaults to None.
             seat (str, optional): seat number. Defaults to None.
             location (str, optional): event location. Defaults to None.
+            wallet (str, optional): wallet id. Defaults to None.
         """
         
         # Ticket
@@ -38,8 +39,8 @@ class TicketGenerator:
         self.day = formatted_date.strftime('%b %d %Y')
         self.hour = formatted_date.strftime('%I:%M%p')
         self.date = date # date
-        
-    
+        self.wallet = wallet
+
     def generate_picture(self):
         """generate ticket
 
@@ -111,5 +112,6 @@ class TicketGenerator:
         data['ticket_seat'] = self.seat
         data['ticket_price'] = self.price
         data['ticket_id'] = self.id
+        data['wallet'] = self.wallet
         
         return json.dumps(data)
