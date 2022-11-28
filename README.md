@@ -46,7 +46,7 @@ Usefull content table :
 | Template name | Description |
 | ------------- | ----------- |
 | [package folder](./package/) | Packages to generate tickets |
-| [My NFT folder](./my-nft/) | ######## |
+| [My NFT folder](./my-nft/) | Package to transform the generated ticket as NFT |
 | [Generated tickets folder](./package/) | Generated tickets |
 | [Ressources folder](./ressources/) | Ticket template and pictures used |
 | [main.py](./main.py) |  The file used to generate the ticket |
