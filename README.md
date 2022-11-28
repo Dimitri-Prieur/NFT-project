@@ -33,6 +33,10 @@ Here is the description of the project ########
 
 ########
 
+<p align="center" style="width: 100%; display: flex; justify-content: space-between;">
+  <img src="./ressources/template/final.png" style="width: 40%; margin-left: 7%; height:auto;" />
+</p>
+
 ### Content
 
 Usefull content table :
