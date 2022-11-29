@@ -61,8 +61,7 @@ Usefull content table :
 
 ### Prerequisites
 
-You need [python 3.9](https://docs.python.org/3.9/) to run this project.
-You need node v18(.12.1) & npm v8(.19.2) to run this project
+You need [python 3.9](https://docs.python.org/3.9/), [node v18(.12.1)](https://nodejs.org/en/docs/) and [npm v8(.19.2)](https://docs.npmjs.com/) to run this project
 
 ### Installation
 
@@ -75,33 +74,30 @@ _Below are the instructions_
     ```
     
 2. Python libraries :
+    
+    Libraries used are :
+    ```requests, qrcode, json, datetime, PIL```
+    
+    Install them with pip if they are missing : 
+    
     ```
-    Libraries used are : requests, qrcode, json, datetime, PIL
-    
-    For example : 
-    
     pip install qrcode
-    
     ```
 3. JavaScript libraries :
+    Libraries used are : ```hardhat```
+    
+    Install it if it's missing :
     ```
-    Libraries used are : hardhat
-    
-    For example : 
-    
     npm install hardhat
-    
     ```
     
-4. External dependencies :
-    ```
+4. External dependencies :<br>
     You need a Mumbai wallet. You can use MetaMask for example.
     
     You need to create a Pinata account where you will store each image and the       JSON related to this image.
     
     Use OPENSEA to check your minted NFT
     
-    ```
     
     
 <!-- USAGE EXAMPLES -->
