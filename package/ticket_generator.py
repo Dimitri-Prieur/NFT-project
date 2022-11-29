@@ -5,11 +5,11 @@ import json
 
 class TicketGenerator:
 
-    def __init__(self, id: str, url: str, picture: str, title: str, subtitle: str, date: datetime, price: float = None, seat: str = None, location: str = None, wallet : str = None):
+    def __init__(self, id: int, url: str, picture: str, title: str, subtitle: str, date: datetime, price: float = None, seat: str = None, location: str = None, wallet : str = None):
         """Initializing ticket
 
         Args:
-            id (str): ticket id
+            id (int): ticket id
             url (str): ticket QR Code url
             picture (str): ticket picture
             
@@ -97,6 +97,12 @@ class TicketGenerator:
         # Display no refund
         _text = "No refund / No exchange"
         addNewDraw(_text, 815, 815, 38, (245, 240, 225))
+        
+        # Display ID
+        addNewDraw("N°" + str(self.id), 280, 50, 25, orange_color, 1)
+        
+        # Display ID
+        addNewDraw("Seat N°" + str(self.seat), 280, 800, 30, orange_color, 1)
         
         return background
 
