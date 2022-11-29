@@ -36,7 +36,7 @@ The aim of the project is to create an NFT ticket for various events. The ticket
 The aim of these tickets is to prevent black marketing & other problem related to the ticket industry. Since NFTs are unique digital tokens stored on a blockchain. Once created on the blockchain, they can be sold to customers digitally & they are unique. Customers then store NFTs in a secure wallet that they can access on any device.
 
 <p align="center" style="width: 100%; display: flex; justify-content: space-between;">
-  <img src="./ressources/template/better.png" style="width: 70%; margin-left: 7%; height:auto;" />
+  <img src="./ressources/template/final.png" style="width: 70%; margin-left: 7%; height:auto;" />
 </p>
 
 ### Content
