@@ -33,13 +33,15 @@ This repo is a student project.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<p align="center" style="width: 100%; display: flex; justify-content: space-between;">
+  <img src="./ressources/template/final.png" style="width: 70%; margin-left: 7%; height:auto;" />
+</p>
+
 The aim of the project is to create an NFT ticket for various events. The ticket is composed of an image linked to the event the person is going to attend and a QR code with all the information related to the ticket as well as the "time" he bought from the event. People can buy for normal ticket or add an extra to buy a moment from an event. This would allow people to sell their tickets after the event, creating a perpertual revenue.
 
 The aim of these tickets is to prevent black marketing & other problem related to the ticket industry. Since NFTs are unique digital tokens stored on a blockchain. Once created on the blockchain, they can be sold to customers digitally & they are unique. Customers then store NFTs in a secure wallet that they can access on any device.
 
-<p align="center" style="width: 100%; display: flex; justify-content: space-between;">
-  <img src="./ressources/template/final.png" style="width: 70%; margin-left: 7%; height:auto;" />
-</p>
+You can find all of our tickets available on our marketplace [OpenSea](https://testnets.opensea.io/Ticket_Event_NFT)
 
 ### Content
 
