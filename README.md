@@ -45,6 +45,7 @@ Usefull content table :
 
 | Template name | Description |
 | ------------- | ----------- |
+| [Presentation PPT](./Presentation_PPT/) | Folder with the different project presentations |
 | [package folder](./package/) | Packages to generate tickets |
 | [My NFT folder](./my-nft/) | Package to transform the generated ticket as NFT |
 | [Generated tickets folder](./package/) | Generated tickets |
