@@ -136,7 +136,7 @@ For the moment, we just save them in a folder but the final goal is to directly 
 
 [ ] Make a link between our package and the NFT generator ensuring that the whole process is fully automated from the creation of the ticket to its minting
 
-[ ] Make an app where customers will be able to generate events and make a reservation (Front-end & Back-end)
+[ ] Make an app/website where customers will be able to generate events and make a reservation (Front-end & Back-end). Including a database that allows to create events, to manage the number of places, the price, to have the possibility to have its own images to add to the ticket.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
