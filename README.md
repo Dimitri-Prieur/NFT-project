@@ -41,7 +41,7 @@ The aim of the project is to create an NFT ticket for various events. The ticket
 
 The aim of these tickets is to prevent black marketing & other problem related to the ticket industry. Since NFTs are unique digital tokens stored on a blockchain. Once created on the blockchain, they can be sold to customers digitally & they are unique. Customers then store NFTs in a secure wallet that they can access on any device.
 
-You can find all of our tickets available on our marketplace [OpenSea](https://testnets.opensea.io/Ticket_Event_NFT)
+You can find all of our available tickets on our marketplace [OpenSea](https://testnets.opensea.io/Ticket_Event_NFT)
 
 ### Content
 
@@ -103,6 +103,17 @@ _Below are the instructions_
     
     Use OPENSEA to check your minted NFT
     
+    
+6. Deploy Contract & Mint :<br>
+    Deploy Contract
+    ```
+    npx hardhat run scripts/deploy.js --network mumbai
+    ```
+    
+    Mint NFT
+    ```
+    npx hardhat run scripts/mint.js --network mumbai
+    ```
     
     
 <!-- USAGE EXAMPLES -->
