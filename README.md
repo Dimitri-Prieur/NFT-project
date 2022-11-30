@@ -96,15 +96,16 @@ _Below are the instructions_
     npm install hardhat
     ```
     
-4. External dependencies :<br>
-    You need a Mumbai wallet. You can use MetaMask for example.
+4. External dependencies :<br>  
+
+    You need a Mumbai wallet. You can use [MetaMask](https://metamask.io/) for example.
     
-    You need to create a Pinata account where you will store each image and the       JSON related to this image.
+    You need to create a [Pinata](https://www.pinata.cloud/) account where you will store each image and the       JSON related to this image.
     
-    Use OPENSEA to check your minted NFT
+    Use [OPENSEA](https://opensea.io/) to check your minted NFT  
     
     
-6. Deploy Contract & Mint :<br>
+6. Deploy Contract & Mint :<br>  
     Deploy Contract
     ```
     npx hardhat run scripts/deploy.js --network mumbai
