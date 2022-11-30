@@ -4,6 +4,8 @@
 
 The aim of the project is to create an NFT ticket for various events.
 
+This repo is a student project.
+
 <!-- TABLE OF CONTENTS -->
 <details open>
   <summary>Table of Contents</summary>
