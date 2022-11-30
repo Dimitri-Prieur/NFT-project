@@ -130,15 +130,13 @@ For the moment, we just save them in a folder but the final goal is to directly 
 
 ## Future features
 
-It would be necessary to make the link between the generation of an image and the json with an automatic creation of the NFT once everything is done.
+[ ] Use the QR-code to identify the information related to the ticket generated
 
-Making a website and a database, that would allow to sell the tickets to customers and all the data related to the sell.
+[ ] Automatize the creation of the unique image related to the event (DALL E)
 
+[ ] Make a link between our package and the NFT generator ensuring that the whole process is fully automated from the creation of the ticket to its minting
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+[ ] Make an app where customers will be able to generate events and make a reservation (Front-end & Back-end)
 
-## Ideas
-
-To automate the whole, it will be necessary to create a database that allows to create events, to manage the number of places, the price, to have the possibility to have its own images to add to the ticket.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
